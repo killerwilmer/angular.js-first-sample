@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('blog', ['ngRoute', 'blog.controllers'])
+    .module('blog', ['ngRoute', 'blog.controllers', 'blog.templates'])
     .config(config);
 
   function config ($locationProvider, $routeProvider) {
